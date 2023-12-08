@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="ddcontainer">
+        <div class="item">
+            <div class="title" data-value="12">Choose Plan</div>
+            <div class="dropdown" style="--i: 4">
+                <div class="drop-item" data-price="12">Standard.</div>
+                <div class="drop-item" data-price="23">Standard Plus</div>
+                <div class="drop-item" data-price="34">Deep Clean</div>
+                <div class="drop-item" data-price="45">Moving in/out</div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="title" id="service" data-value="12" data-option="null">Choose Service</div>
+            <div class="dropdown" style="--i: 3">
+                <div class="drop-item" data-price="12" data-option="house">House Cleaning</div>
+                <div class="drop-item" data-price="23" data-option="office">Office Cleaning</div>
+                <div class="drop-item" data-price="34" data-option="maid">Maid Service</div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="title" data-service-type="null" data-value="12">Choose Options</div>
+            <div class="dropdown house" style="--i: 4">
+                <div class="drop-item" data-price="12">1 Bedroom</div>
+                <div class="drop-item" data-price="23">2 Bedroom</div>
+                <div class="drop-item" data-price="34">3 Bedroom</div>
+                <div class="drop-item" data-price="45">4 Bedroom</div>
+            </div>
+            <div class="dropdown office" style="--i: 4">
+                <div class="drop-item" data-price="12">1 Office</div>
+                <div class="drop-item" data-price="23">2 Office</div>
+                <div class="drop-item" data-price="34">3 Office</div>
+                <div class="drop-item" data-price="45">4 Office</div>
+            </div>
+            <div class="dropdown maid" style="--i: 4">
+                <div class="drop-item" data-price="12">1 Maid</div>
+                <div class="drop-item" data-price="23">2 Maid</div>
+                <div class="drop-item" data-price="34">3 Maid</div>
+                <div class="drop-item" data-price="45">4 Maid</div>
+            </div>
+            
+            <div class="dropdown null" style="--i: 1">
+                <div class="drop" data-price="12">Choose Service Type</div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="title btn">
+                <a href="tel:+9188888888">
+                Estimated Price &nbsp;$<span>00</span>
+            </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
